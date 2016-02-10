@@ -22,7 +22,7 @@ public class NumberWizard : MonoBehaviour {
 	void Update() {
 		
 		if(Input.GetKeyDown(KeyCode.UpArrow)) {
-			//print ("Up was pressed");	
+			//print "Up was pressed");	
       min = guess;	
       askQuestion();
 		} else if (Input.GetKeyDown(KeyCode.DownArrow)) {
